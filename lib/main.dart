@@ -28,7 +28,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
+        backgroundColor: Colors.grey,
+        centerTitle: true,
+        title: Text("worldInfo",style: TextStyle(
+          fontSize: 38,
+          fontWeight: FontWeight.bold,
+          color: Colors.red[900]
+        ),),
       ),
     );
   }
